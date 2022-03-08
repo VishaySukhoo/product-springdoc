@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+#    disable schema info
+    defaultModelsExpandDepth: -1
+    doc-expansion: none
+    tagsSorter: alpha
+    operationsSorter: alpha
+  writer-with-default-pretty-printer: true
